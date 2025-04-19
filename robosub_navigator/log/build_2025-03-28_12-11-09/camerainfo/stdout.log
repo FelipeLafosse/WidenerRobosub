@@ -1,0 +1,42 @@
+running develop
+Removing /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo.egg-link (link to .)
+running egg_info
+writing ../../build/camerainfo/camerainfo.egg-info/PKG-INFO
+writing dependency_links to ../../build/camerainfo/camerainfo.egg-info/dependency_links.txt
+writing entry points to ../../build/camerainfo/camerainfo.egg-info/entry_points.txt
+writing requirements to ../../build/camerainfo/camerainfo.egg-info/requires.txt
+writing top-level names to ../../build/camerainfo/camerainfo.egg-info/top_level.txt
+reading manifest file '../../build/camerainfo/camerainfo.egg-info/SOURCES.txt'
+writing manifest file '../../build/camerainfo/camerainfo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robosub/robosub_navigator/build/camerainfo/build
+creating /home/robosub/robosub_navigator/build/camerainfo/build/lib
+creating /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+copying camerainfo/__init__.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+copying camerainfo/grippercam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+copying camerainfo/cam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+copying camerainfo/frontcam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+running install
+running install_lib
+creating /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/__init__.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/grippercam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/cam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/frontcam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/grippercam.py to grippercam.cpython-312.pyc
+byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/cam.py to cam.cpython-312.pyc
+byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/frontcam.py to frontcam.cpython-312.pyc
+running install_data
+copying resource/camerainfo -> /home/robosub/robosub_navigator/install/camerainfo/share/ament_index/resource_index/packages
+copying package.xml -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo
+copying launch/camlaunch.xml -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch
+copying launch/fclaunch.py -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch
+running install_egg_info
+Copying ../../build/camerainfo/camerainfo.egg-info to /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+Installing frontcam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+Installing grippercam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+writing list of installed files to '/home/robosub/robosub_navigator/build/camerainfo/install.log'

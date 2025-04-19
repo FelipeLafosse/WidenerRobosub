@@ -1,0 +1,7 @@
+<launch>
+  <!-- Camera node with GStreamer pipeline as a parameter -->
+  <node pkg="camerainfo" exec="frontcam" name="camera_node">
+    <param name="gstreamer_pipeline" value="v4l2src ! video/x-raw, width=320, height=240 ! videoconvert ! appsink"/>
+    <param name="frequency" value="5"/>
+  </node>
+</launch>

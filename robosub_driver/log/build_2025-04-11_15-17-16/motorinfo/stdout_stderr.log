@@ -1,0 +1,44 @@
+running develop
+Removing /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo.egg-link (link to .)
+running egg_info
+writing ../../build/motorinfo/motorinfo.egg-info/PKG-INFO
+writing dependency_links to ../../build/motorinfo/motorinfo.egg-info/dependency_links.txt
+writing entry points to ../../build/motorinfo/motorinfo.egg-info/entry_points.txt
+writing requirements to ../../build/motorinfo/motorinfo.egg-info/requires.txt
+writing top-level names to ../../build/motorinfo/motorinfo.egg-info/top_level.txt
+reading manifest file '../../build/motorinfo/motorinfo.egg-info/SOURCES.txt'
+writing manifest file '../../build/motorinfo/motorinfo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robosub/robosub_driver/build/motorinfo/build
+creating /home/robosub/robosub_driver/build/motorinfo/build/lib
+creating /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+copying motorinfo/__init__.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+copying motorinfo/motorauv2.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+copying motorinfo/motorauv.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+copying motorinfo/motorcommand.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+copying motorinfo/motorkey.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+running install
+running install_lib
+creating /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/__init__.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorauv2.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorauv.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorcommand.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorkey.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorauv2.py to motorauv2.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorauv.py to motorauv.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorcommand.py to motorcommand.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorkey.py to motorkey.cpython-312.pyc
+running install_data
+copying resource/motorinfo -> /home/robosub/robosub_driver/install/motorinfo/share/ament_index/resource_index/packages
+copying package.xml -> /home/robosub/robosub_driver/install/motorinfo/share/motorinfo
+running install_egg_info
+Copying ../../build/motorinfo/motorinfo.egg-info to /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motorauv script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+Installing motorauv2 script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+Installing motorcommand script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+Installing motorkey script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+writing list of installed files to '/home/robosub/robosub_driver/build/motorinfo/install.log'

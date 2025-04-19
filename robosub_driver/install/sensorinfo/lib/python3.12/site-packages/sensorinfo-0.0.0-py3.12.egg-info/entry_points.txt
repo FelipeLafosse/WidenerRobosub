@@ -1,0 +1,5 @@
+[console_scripts]
+depth = sensorinfo.depth:main
+depthIMU = sensorinfo.depthIMU:main
+hydrophone = sensorinfo.hydrophone:main
+imu = sensorinfo.imu:main

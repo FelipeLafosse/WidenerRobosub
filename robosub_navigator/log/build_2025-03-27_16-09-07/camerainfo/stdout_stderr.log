@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating camerainfo.egg-info
+writing camerainfo.egg-info/PKG-INFO
+writing dependency_links to camerainfo.egg-info/dependency_links.txt
+writing entry points to camerainfo.egg-info/entry_points.txt
+writing requirements to camerainfo.egg-info/requires.txt
+writing top-level names to camerainfo.egg-info/top_level.txt
+writing manifest file 'camerainfo.egg-info/SOURCES.txt'
+reading manifest file 'camerainfo.egg-info/SOURCES.txt'
+writing manifest file 'camerainfo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo.egg-link (link to .)
+Installing cam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+Installing frontcam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+Installing grippercam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+
+Installed /home/robosub/robosub_navigator/build/camerainfo
+running symlink_data
+creating /home/robosub/robosub_navigator/install/camerainfo/share/ament_index
+creating /home/robosub/robosub_navigator/install/camerainfo/share/ament_index/resource_index
+creating /home/robosub/robosub_navigator/install/camerainfo/share/ament_index/resource_index/packages
+symbolically linking /home/robosub/robosub_navigator/build/camerainfo/resource/camerainfo -> /home/robosub/robosub_navigator/install/camerainfo/share/ament_index/resource_index/packages
+symbolically linking /home/robosub/robosub_navigator/build/camerainfo/package.xml -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo
+creating /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch
+symbolically linking /home/robosub/robosub_navigator/build/camerainfo/launch/camlaunch.xml -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch
+symbolically linking /home/robosub/robosub_navigator/build/camerainfo/launch/fclaunch.py -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch

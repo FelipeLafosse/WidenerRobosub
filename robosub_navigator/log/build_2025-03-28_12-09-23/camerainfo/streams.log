@@ -1,0 +1,19 @@
+[5.995s] Invoking command in '/home/robosub/robosub_navigator/build/camerainfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robosub/robosub_navigator/build/camerainfo/build --no-deps symlink_data
+[8.699s] running develop
+[11.808s] running egg_info
+[12.090s] writing camerainfo.egg-info/PKG-INFO
+[12.109s] writing dependency_links to camerainfo.egg-info/dependency_links.txt
+[12.112s] writing entry points to camerainfo.egg-info/entry_points.txt
+[12.114s] writing requirements to camerainfo.egg-info/requires.txt
+[12.116s] writing top-level names to camerainfo.egg-info/top_level.txt
+[13.152s] reading manifest file 'camerainfo.egg-info/SOURCES.txt'
+[13.164s] writing manifest file 'camerainfo.egg-info/SOURCES.txt'
+[13.448s] running build_ext
+[13.449s] Creating /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo.egg-link (link to .)
+[13.452s] Installing cam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+[13.453s] Installing frontcam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+[13.454s] Installing grippercam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+[13.455s] 
+[13.456s] Installed /home/robosub/robosub_navigator/build/camerainfo
+[13.456s] running symlink_data
+[13.721s] Invoked command in '/home/robosub/robosub_navigator/build/camerainfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robosub/robosub_navigator/build/camerainfo/build --no-deps symlink_data

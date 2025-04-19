@@ -1,0 +1,27 @@
+[11.444s] Invoking command in '/home/robosub/robosub_driver/src/sensorinfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensorinfo build --build-base /home/robosub/robosub_driver/build/sensorinfo/build install --record /home/robosub/robosub_driver/build/sensorinfo/install.log --single-version-externally-managed install_data
+[15.092s] running egg_info
+[15.334s] writing ../../build/sensorinfo/sensorinfo.egg-info/PKG-INFO
+[15.339s] writing dependency_links to ../../build/sensorinfo/sensorinfo.egg-info/dependency_links.txt
+[15.345s] writing entry points to ../../build/sensorinfo/sensorinfo.egg-info/entry_points.txt
+[15.347s] writing requirements to ../../build/sensorinfo/sensorinfo.egg-info/requires.txt
+[15.350s] writing top-level names to ../../build/sensorinfo/sensorinfo.egg-info/top_level.txt
+[15.826s] reading manifest file '../../build/sensorinfo/sensorinfo.egg-info/SOURCES.txt'
+[15.832s] writing manifest file '../../build/sensorinfo/sensorinfo.egg-info/SOURCES.txt'
+[15.833s] running build
+[15.838s] running build_py
+[15.840s] copying sensorinfo/depthIMU.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+[15.841s] running install
+[15.880s] running install_lib
+[16.142s] copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/depthIMU.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+[16.151s] byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/depthIMU.py to depthIMU.cpython-312.pyc
+[16.156s] running install_data
+[16.157s] running install_egg_info
+[16.540s] removing '/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo-0.0.0-py3.12.egg-info' (and everything under it)
+[16.543s] Copying ../../build/sensorinfo/sensorinfo.egg-info to /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo-0.0.0-py3.12.egg-info
+[16.551s] running install_scripts
+[18.735s] Installing depth script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[18.740s] Installing depthIMU script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[18.748s] Installing hydrophone script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[18.760s] Installing imu script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[18.763s] writing list of installed files to '/home/robosub/robosub_driver/build/sensorinfo/install.log'
+[19.154s] Invoked command in '/home/robosub/robosub_driver/src/sensorinfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensorinfo build --build-base /home/robosub/robosub_driver/build/sensorinfo/build install --record /home/robosub/robosub_driver/build/sensorinfo/install.log --single-version-externally-managed install_data

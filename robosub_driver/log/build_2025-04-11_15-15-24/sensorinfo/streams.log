@@ -1,0 +1,27 @@
+[15.818s] Invoking command in '/home/robosub/robosub_driver/build/sensorinfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robosub/robosub_driver/build/sensorinfo/build --no-deps symlink_data
+[24.413s] running develop
+[30.816s] running egg_info
+[30.817s] creating sensorinfo.egg-info
+[31.292s] writing sensorinfo.egg-info/PKG-INFO
+[31.301s] writing dependency_links to sensorinfo.egg-info/dependency_links.txt
+[31.312s] writing entry points to sensorinfo.egg-info/entry_points.txt
+[31.314s] writing requirements to sensorinfo.egg-info/requires.txt
+[31.316s] writing top-level names to sensorinfo.egg-info/top_level.txt
+[31.318s] writing manifest file 'sensorinfo.egg-info/SOURCES.txt'
+[32.760s] reading manifest file 'sensorinfo.egg-info/SOURCES.txt'
+[32.779s] writing manifest file 'sensorinfo.egg-info/SOURCES.txt'
+[33.365s] running build_ext
+[33.366s] Creating /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo.egg-link (link to .)
+[33.370s] Installing depth script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[33.387s] Installing depthIMU script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[33.391s] Installing hydrophone script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[33.393s] Installing imu script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+[33.397s] 
+[33.402s] Installed /home/robosub/robosub_driver/build/sensorinfo
+[33.404s] running symlink_data
+[33.410s] creating /home/robosub/robosub_driver/install/sensorinfo/share/ament_index
+[33.415s] creating /home/robosub/robosub_driver/install/sensorinfo/share/ament_index/resource_index
+[33.429s] creating /home/robosub/robosub_driver/install/sensorinfo/share/ament_index/resource_index/packages
+[33.432s] symbolically linking /home/robosub/robosub_driver/build/sensorinfo/resource/sensorinfo -> /home/robosub/robosub_driver/install/sensorinfo/share/ament_index/resource_index/packages
+[33.433s] symbolically linking /home/robosub/robosub_driver/build/sensorinfo/package.xml -> /home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo
+[33.743s] Invoked command in '/home/robosub/robosub_driver/build/sensorinfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robosub/robosub_driver/build/sensorinfo/build --no-deps symlink_data

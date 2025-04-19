@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.002890] (camerainfo) JobQueued: {'identifier': 'camerainfo', 'dependencies': OrderedDict()}
+[0.003267] (camerainfo) JobStarted: {'identifier': 'camerainfo'}
+[0.098279] (-) TimerEvent: {}
+[0.202361] (-) TimerEvent: {}
+[0.303231] (-) TimerEvent: {}
+[0.403993] (-) TimerEvent: {}
+[0.504936] (-) TimerEvent: {}
+[0.605626] (-) TimerEvent: {}
+[0.706361] (-) TimerEvent: {}
+[0.807015] (-) TimerEvent: {}
+[0.907637] (-) TimerEvent: {}
+[1.008221] (-) TimerEvent: {}
+[1.108819] (-) TimerEvent: {}
+[1.209619] (-) TimerEvent: {}
+[1.310226] (-) TimerEvent: {}
+[1.413337] (-) TimerEvent: {}
+[1.515843] (-) TimerEvent: {}
+[1.624176] (-) TimerEvent: {}
+[1.729009] (-) TimerEvent: {}
+[1.833237] (-) TimerEvent: {}
+[1.936231] (-) TimerEvent: {}
+[2.039309] (-) TimerEvent: {}
+[2.139945] (-) TimerEvent: {}
+[2.240622] (-) TimerEvent: {}
+[2.341242] (-) TimerEvent: {}
+[2.441854] (-) TimerEvent: {}
+[2.542550] (-) TimerEvent: {}
+[2.643178] (-) TimerEvent: {}
+[2.743781] (-) TimerEvent: {}
+[2.844467] (-) TimerEvent: {}
+[2.945092] (-) TimerEvent: {}
+[3.045723] (-) TimerEvent: {}
+[3.146353] (-) TimerEvent: {}
+[3.246970] (-) TimerEvent: {}
+[3.347667] (-) TimerEvent: {}
+[3.448405] (-) TimerEvent: {}
+[3.549150] (-) TimerEvent: {}
+[3.649923] (-) TimerEvent: {}
+[3.750890] (-) TimerEvent: {}
+[3.851807] (-) TimerEvent: {}
+[3.952544] (-) TimerEvent: {}
+[4.053225] (-) TimerEvent: {}
+[4.153993] (-) TimerEvent: {}
+[4.255031] (-) TimerEvent: {}
+[4.355750] (-) TimerEvent: {}
+[4.456644] (-) TimerEvent: {}
+[4.557453] (-) TimerEvent: {}
+[4.658200] (-) TimerEvent: {}
+[4.758803] (-) TimerEvent: {}
+[4.859435] (-) TimerEvent: {}
+[4.960000] (-) TimerEvent: {}
+[5.060679] (-) TimerEvent: {}
+[5.161439] (-) TimerEvent: {}
+[5.262170] (-) TimerEvent: {}
+[5.362799] (-) TimerEvent: {}
+[5.463682] (-) TimerEvent: {}
+[5.564299] (-) TimerEvent: {}
+[5.664876] (-) TimerEvent: {}
+[5.765544] (-) TimerEvent: {}
+[5.866146] (-) TimerEvent: {}
+[5.966731] (-) TimerEvent: {}
+[6.067389] (-) TimerEvent: {}
+[6.168062] (-) TimerEvent: {}
+[6.270736] (-) TimerEvent: {}
+[6.371416] (-) TimerEvent: {}
+[6.472257] (-) TimerEvent: {}
+[6.572959] (-) TimerEvent: {}
+[6.673625] (-) TimerEvent: {}
+[6.774361] (-) TimerEvent: {}
+[6.875570] (-) TimerEvent: {}
+[6.965717] (camerainfo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camerainfo', 'build', '--build-base', '/home/robosub/robosub_navigator/build/camerainfo/build', 'install', '--record', '/home/robosub/robosub_navigator/build/camerainfo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robosub/robosub_navigator/src/camerainfo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1574', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1796', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2839', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_navigator/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15221', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/navigator:@/tmp/.ICE-unix/1760,unix/navigator:/tmp/.ICE-unix/1760', 'INVOCATION_ID': '54aac946cc894bd4909e5620b450e5ca', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-8c2901e85a560764.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.FJ0M42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-cb94feef34.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_navigator/install/camerainfo:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_navigator/build/camerainfo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.975656] (-) TimerEvent: {}
+[7.076507] (-) TimerEvent: {}
+[7.177204] (-) TimerEvent: {}
+[7.277974] (-) TimerEvent: {}
+[7.378766] (-) TimerEvent: {}
+[7.479462] (-) TimerEvent: {}
+[7.580036] (-) TimerEvent: {}
+[7.680673] (-) TimerEvent: {}
+[7.782149] (-) TimerEvent: {}
+[7.883462] (-) TimerEvent: {}
+[7.994037] (-) TimerEvent: {}
+[8.096576] (-) TimerEvent: {}
+[8.198353] (-) TimerEvent: {}
+[8.299348] (-) TimerEvent: {}
+[8.399957] (-) TimerEvent: {}
+[8.500588] (-) TimerEvent: {}
+[8.601197] (-) TimerEvent: {}
+[8.701926] (-) TimerEvent: {}
+[8.802561] (-) TimerEvent: {}
+[8.903199] (-) TimerEvent: {}
+[8.967258] (camerainfo) StdoutLine: {'line': b'running egg_info\n'}
+[9.003362] (-) TimerEvent: {}
+[9.090179] (camerainfo) StdoutLine: {'line': b'writing ../../build/camerainfo/camerainfo.egg-info/PKG-INFO\n'}
+[9.091363] (camerainfo) StdoutLine: {'line': b'writing dependency_links to ../../build/camerainfo/camerainfo.egg-info/dependency_links.txt\n'}
+[9.093420] (camerainfo) StdoutLine: {'line': b'writing entry points to ../../build/camerainfo/camerainfo.egg-info/entry_points.txt\n'}
+[9.094281] (camerainfo) StdoutLine: {'line': b'writing requirements to ../../build/camerainfo/camerainfo.egg-info/requires.txt\n'}
+[9.096232] (camerainfo) StdoutLine: {'line': b'writing top-level names to ../../build/camerainfo/camerainfo.egg-info/top_level.txt\n'}
+[9.103506] (-) TimerEvent: {}
+[9.204177] (-) TimerEvent: {}
+[9.304874] (-) TimerEvent: {}
+[9.405534] (-) TimerEvent: {}
+[9.455418] (camerainfo) StdoutLine: {'line': b"reading manifest file '../../build/camerainfo/camerainfo.egg-info/SOURCES.txt'\n"}
+[9.460930] (camerainfo) StdoutLine: {'line': b"writing manifest file '../../build/camerainfo/camerainfo.egg-info/SOURCES.txt'\n"}
+[9.462241] (camerainfo) StdoutLine: {'line': b'running build\n'}
+[9.463029] (camerainfo) StdoutLine: {'line': b'running build_py\n'}
+[9.464019] (camerainfo) StdoutLine: {'line': b'copying camerainfo/frontcam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo\n'}
+[9.473930] (camerainfo) StdoutLine: {'line': b'running install\n'}
+[9.500896] (camerainfo) StdoutLine: {'line': b'running install_lib\n'}
+[9.505670] (-) TimerEvent: {}
+[9.606219] (-) TimerEvent: {}
+[9.657983] (camerainfo) StdoutLine: {'line': b'copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/frontcam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo\n'}
+[9.661846] (camerainfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/frontcam.py to frontcam.cpython-312.pyc\n'}
+[9.673682] (camerainfo) StdoutLine: {'line': b'running install_data\n'}
+[9.676217] (camerainfo) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.706375] (-) TimerEvent: {}
+[9.806989] (-) TimerEvent: {}
+[9.810575] (camerainfo) StdoutLine: {'line': b"removing '/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[9.812478] (camerainfo) StdoutLine: {'line': b'Copying ../../build/camerainfo/camerainfo.egg-info to /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo-0.0.0-py3.12.egg-info\n'}
+[9.821900] (camerainfo) StdoutLine: {'line': b'running install_scripts\n'}
+[9.907254] (-) TimerEvent: {}
+[10.008181] (-) TimerEvent: {}
+[10.110711] (-) TimerEvent: {}
+[10.213675] (-) TimerEvent: {}
+[10.314397] (-) TimerEvent: {}
+[10.415045] (-) TimerEvent: {}
+[10.515666] (-) TimerEvent: {}
+[10.616253] (-) TimerEvent: {}
+[10.716964] (-) TimerEvent: {}
+[10.817742] (-) TimerEvent: {}
+[10.891860] (camerainfo) StdoutLine: {'line': b'Installing cam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo\n'}
+[10.893266] (camerainfo) StdoutLine: {'line': b'Installing frontcam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo\n'}
+[10.895072] (camerainfo) StdoutLine: {'line': b'Installing grippercam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo\n'}
+[10.897027] (camerainfo) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/robosub_navigator/build/camerainfo/install.log'\n"}
+[10.917959] (-) TimerEvent: {}
+[11.019098] (-) TimerEvent: {}
+[11.101027] (camerainfo) CommandEnded: {'returncode': 0}
+[11.119252] (-) TimerEvent: {}
+[11.192472] (camerainfo) JobEnded: {'identifier': 'camerainfo', 'rc': 0}
+[11.197645] (-) EventReactorShutdown: {}

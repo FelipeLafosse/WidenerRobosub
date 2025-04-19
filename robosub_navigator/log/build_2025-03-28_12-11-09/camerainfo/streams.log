@@ -1,0 +1,46 @@
+[4.920s] Invoking command in '/home/robosub/robosub_navigator/build/camerainfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_navigator/build/camerainfo/build
+[6.531s] running develop
+[7.681s] Removing /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo.egg-link (link to .)
+[7.860s] Invoked command in '/home/robosub/robosub_navigator/build/camerainfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_navigator/build/camerainfo/build
+[7.866s] Invoking command in '/home/robosub/robosub_navigator/src/camerainfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camerainfo build --build-base /home/robosub/robosub_navigator/build/camerainfo/build install --record /home/robosub/robosub_navigator/build/camerainfo/install.log --single-version-externally-managed install_data --force
+[9.254s] running egg_info
+[9.355s] writing ../../build/camerainfo/camerainfo.egg-info/PKG-INFO
+[9.357s] writing dependency_links to ../../build/camerainfo/camerainfo.egg-info/dependency_links.txt
+[9.361s] writing entry points to ../../build/camerainfo/camerainfo.egg-info/entry_points.txt
+[9.362s] writing requirements to ../../build/camerainfo/camerainfo.egg-info/requires.txt
+[9.363s] writing top-level names to ../../build/camerainfo/camerainfo.egg-info/top_level.txt
+[9.581s] reading manifest file '../../build/camerainfo/camerainfo.egg-info/SOURCES.txt'
+[9.589s] writing manifest file '../../build/camerainfo/camerainfo.egg-info/SOURCES.txt'
+[9.590s] running build
+[9.592s] running build_py
+[9.593s] creating /home/robosub/robosub_navigator/build/camerainfo/build
+[9.594s] creating /home/robosub/robosub_navigator/build/camerainfo/build/lib
+[9.594s] creating /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+[9.595s] copying camerainfo/__init__.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+[9.595s] copying camerainfo/grippercam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+[9.596s] copying camerainfo/cam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+[9.596s] copying camerainfo/frontcam.py -> /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo
+[9.598s] running install
+[9.624s] running install_lib
+[9.722s] creating /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+[9.725s] copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/__init__.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+[9.726s] copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/grippercam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+[9.726s] copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/cam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+[9.727s] copying /home/robosub/robosub_navigator/build/camerainfo/build/lib/camerainfo/frontcam.py -> /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo
+[9.728s] byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/__init__.py to __init__.cpython-312.pyc
+[9.729s] byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/grippercam.py to grippercam.cpython-312.pyc
+[9.735s] byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/cam.py to cam.cpython-312.pyc
+[9.737s] byte-compiling /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo/frontcam.py to frontcam.cpython-312.pyc
+[9.742s] running install_data
+[9.743s] copying resource/camerainfo -> /home/robosub/robosub_navigator/install/camerainfo/share/ament_index/resource_index/packages
+[9.743s] copying package.xml -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo
+[9.744s] copying launch/camlaunch.xml -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch
+[9.746s] copying launch/fclaunch.py -> /home/robosub/robosub_navigator/install/camerainfo/share/camerainfo/launch
+[9.746s] running install_egg_info
+[9.854s] Copying ../../build/camerainfo/camerainfo.egg-info to /home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages/camerainfo-0.0.0-py3.12.egg-info
+[9.861s] running install_scripts
+[10.808s] Installing cam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+[10.810s] Installing frontcam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+[10.810s] Installing grippercam script to /home/robosub/robosub_navigator/install/camerainfo/lib/camerainfo
+[10.812s] writing list of installed files to '/home/robosub/robosub_navigator/build/camerainfo/install.log'
+[10.974s] Invoked command in '/home/robosub/robosub_navigator/src/camerainfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_navigator/build/camerainfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_navigator/install/camerainfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camerainfo build --build-base /home/robosub/robosub_navigator/build/camerainfo/build install --record /home/robosub/robosub_navigator/build/camerainfo/install.log --single-version-externally-managed install_data --force

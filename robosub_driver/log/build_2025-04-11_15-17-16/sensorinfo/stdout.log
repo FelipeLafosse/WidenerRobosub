@@ -1,0 +1,44 @@
+running develop
+Removing /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo.egg-link (link to .)
+running egg_info
+writing ../../build/sensorinfo/sensorinfo.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensorinfo/sensorinfo.egg-info/dependency_links.txt
+writing entry points to ../../build/sensorinfo/sensorinfo.egg-info/entry_points.txt
+writing requirements to ../../build/sensorinfo/sensorinfo.egg-info/requires.txt
+writing top-level names to ../../build/sensorinfo/sensorinfo.egg-info/top_level.txt
+reading manifest file '../../build/sensorinfo/sensorinfo.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensorinfo/sensorinfo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robosub/robosub_driver/build/sensorinfo/build
+creating /home/robosub/robosub_driver/build/sensorinfo/build/lib
+creating /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+copying sensorinfo/__init__.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+copying sensorinfo/imu.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+copying sensorinfo/hydrophone.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+copying sensorinfo/depth.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+copying sensorinfo/depthIMU.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo
+running install
+running install_lib
+creating /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/__init__.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/imu.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/hydrophone.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/depth.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/depthIMU.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo
+byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/imu.py to imu.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/hydrophone.py to hydrophone.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/depth.py to depth.cpython-312.pyc
+byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/depthIMU.py to depthIMU.cpython-312.pyc
+running install_data
+copying resource/sensorinfo -> /home/robosub/robosub_driver/install/sensorinfo/share/ament_index/resource_index/packages
+copying package.xml -> /home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo
+running install_egg_info
+Copying ../../build/sensorinfo/sensorinfo.egg-info to /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing depth script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+Installing depthIMU script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+Installing hydrophone script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+Installing imu script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo
+writing list of installed files to '/home/robosub/robosub_driver/build/sensorinfo/install.log'

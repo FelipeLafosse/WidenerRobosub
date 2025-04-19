@@ -1,0 +1,30 @@
+[7.151s] Invoking command in '/home/robosub/robosub_driver/src/motorinfo': AMENT_PREFIX_PATH=/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motorinfo build --build-base /home/robosub/robosub_driver/build/motorinfo/build install --record /home/robosub/robosub_driver/build/motorinfo/install.log --single-version-externally-managed install_data
+[9.336s] running egg_info
+[9.533s] writing ../../build/motorinfo/motorinfo.egg-info/PKG-INFO
+[9.535s] writing dependency_links to ../../build/motorinfo/motorinfo.egg-info/dependency_links.txt
+[9.536s] writing entry points to ../../build/motorinfo/motorinfo.egg-info/entry_points.txt
+[9.537s] writing requirements to ../../build/motorinfo/motorinfo.egg-info/requires.txt
+[9.537s] writing top-level names to ../../build/motorinfo/motorinfo.egg-info/top_level.txt
+[9.898s] reading manifest file '../../build/motorinfo/motorinfo.egg-info/SOURCES.txt'
+[9.905s] writing manifest file '../../build/motorinfo/motorinfo.egg-info/SOURCES.txt'
+[9.906s] running build
+[9.907s] running build_py
+[9.908s] copying motorinfo/motorauv.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+[9.910s] copying motorinfo/motorcommand.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo
+[9.912s] running install
+[9.939s] running install_lib
+[10.129s] copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorauv.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+[10.131s] copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorcommand.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo
+[10.136s] byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorauv.py to motorauv.cpython-312.pyc
+[10.147s] byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorcommand.py to motorcommand.cpython-312.pyc
+[10.152s] running install_data
+[10.154s] running install_egg_info
+[10.342s] removing '/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo-0.0.0-py3.12.egg-info' (and everything under it)
+[10.346s] Copying ../../build/motorinfo/motorinfo.egg-info to /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo-0.0.0-py3.12.egg-info
+[10.356s] running install_scripts
+[11.585s] Installing motorauv script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+[11.588s] Installing motorauv2 script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+[11.594s] Installing motorcommand script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+[11.597s] Installing motorkey script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+[11.607s] writing list of installed files to '/home/robosub/robosub_driver/build/motorinfo/install.log'
+[11.941s] Invoked command in '/home/robosub/robosub_driver/src/motorinfo' returned '0': AMENT_PREFIX_PATH=/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motorinfo build --build-base /home/robosub/robosub_driver/build/motorinfo/build install --record /home/robosub/robosub_driver/build/motorinfo/install.log --single-version-externally-managed install_data

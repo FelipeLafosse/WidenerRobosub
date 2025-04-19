@@ -1,0 +1,4 @@
+[console_scripts]
+cam = camerainfo.cam:main
+frontcam = camerainfo.frontcam:main
+grippercam = camerainfo.grippercam:main

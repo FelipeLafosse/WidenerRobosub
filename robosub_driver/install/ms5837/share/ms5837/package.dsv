@@ -1,0 +1,3 @@
+source;share/ms5837/hook/pythonpath.ps1
+source;share/ms5837/hook/pythonpath.dsv
+source;share/ms5837/hook/pythonpath.sh

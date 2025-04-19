@@ -1,0 +1,5 @@
+[console_scripts]
+motorauv = motorinfo.motorauv:main
+motorauv2 = motorinfo.motorauv2:main
+motorcommand = motorinfo.motorcommand:main
+motorkey = motorinfo.motorkey:main

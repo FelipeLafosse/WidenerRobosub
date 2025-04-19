@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating motorinfo.egg-info
+writing motorinfo.egg-info/PKG-INFO
+writing dependency_links to motorinfo.egg-info/dependency_links.txt
+writing entry points to motorinfo.egg-info/entry_points.txt
+writing requirements to motorinfo.egg-info/requires.txt
+writing top-level names to motorinfo.egg-info/top_level.txt
+writing manifest file 'motorinfo.egg-info/SOURCES.txt'
+reading manifest file 'motorinfo.egg-info/SOURCES.txt'
+writing manifest file 'motorinfo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo.egg-link (link to .)
+Installing motorauv script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+Installing motorauv2 script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+Installing motorcommand script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+Installing motorkey script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo
+
+Installed /home/robosub/robosub_driver/build/motorinfo
+running symlink_data
+creating /home/robosub/robosub_driver/install/motorinfo/share/ament_index
+creating /home/robosub/robosub_driver/install/motorinfo/share/ament_index/resource_index
+creating /home/robosub/robosub_driver/install/motorinfo/share/ament_index/resource_index/packages
+symbolically linking /home/robosub/robosub_driver/build/motorinfo/resource/motorinfo -> /home/robosub/robosub_driver/install/motorinfo/share/ament_index/resource_index/packages
+symbolically linking /home/robosub/robosub_driver/build/motorinfo/package.xml -> /home/robosub/robosub_driver/install/motorinfo/share/motorinfo

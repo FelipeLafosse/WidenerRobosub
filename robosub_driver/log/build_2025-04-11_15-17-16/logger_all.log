@@ -1,0 +1,256 @@
+[0.494s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.494s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8e218680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e3c9970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e3c9970>>, mixin_verb=('build',))
+[0.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.671s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robosub/robosub_driver'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'ros'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extensions ['cmake', 'python']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'cmake'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'python'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extensions ['python_setup_py']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(library) by extension 'python_setup_py'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(library/build) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(library/build) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(library/build) ignored
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(library/install) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(library/install) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(library/install) ignored
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(library/log) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(library/log) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(library/log) ignored
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'colcon_meta'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extensions ['ros']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'ros'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extensions ['cmake', 'python']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'cmake'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'python'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extensions ['python_setup_py']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(library/ms5837-python) by extension 'python_setup_py'
+[1.722s] DEBUG:colcon.colcon_core.package_identification:Package 'library/ms5837-python' with type 'python' and name 'ms5837'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extensions ['ignore', 'ignore_ament_install']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extension 'ignore'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extension 'ignore_ament_install'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extensions ['colcon_pkg']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extension 'colcon_pkg'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extensions ['colcon_meta']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extension 'colcon_meta'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extensions ['ros']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/motorinfo) by extension 'ros'
+[1.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motorinfo' with type 'ros.ament_python' and name 'motorinfo'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extensions ['ignore', 'ignore_ament_install']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extension 'ignore'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extension 'ignore_ament_install'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extensions ['colcon_pkg']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extension 'colcon_pkg'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extensions ['colcon_meta']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extension 'colcon_meta'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extensions ['ros']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensorinfo) by extension 'ros'
+[1.749s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensorinfo' with type 'ros.ament_python' and name 'sensorinfo'
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.831s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/robosub/robosub_driver/install/motion_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.832s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/robosub/robosub_driver/install/motion_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.836s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/robosub/robosub_driver/install
+[1.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/jazzy
+[1.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'cmake_args' from command line to 'None'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'cmake_target' from command line to 'None'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'cmake_clean_cache' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'cmake_clean_first' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'cmake_force_configure' from command line to 'False'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'ament_cmake_args' from command line to 'None'
+[2.104s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'catkin_cmake_args' from command line to 'None'
+[2.105s] Level 5:colcon.colcon_core.verb:set package 'ms5837' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.105s] DEBUG:colcon.colcon_core.verb:Building package 'ms5837' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/robosub_driver/build/ms5837', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/robosub_driver/install/ms5837', 'merge_install': False, 'path': '/home/robosub/robosub_driver/library/ms5837-python', 'symlink_install': False, 'test_result_base': None}
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'cmake_args' from command line to 'None'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'cmake_target' from command line to 'None'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.106s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'cmake_clean_first' from command line to 'False'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'cmake_force_configure' from command line to 'False'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'ament_cmake_args' from command line to 'None'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.107s] Level 5:colcon.colcon_core.verb:set package 'sensorinfo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.107s] DEBUG:colcon.colcon_core.verb:Building package 'sensorinfo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/robosub_driver/build/sensorinfo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/robosub_driver/install/sensorinfo', 'merge_install': False, 'path': '/home/robosub/robosub_driver/src/sensorinfo', 'symlink_install': False, 'test_result_base': None}
+[2.108s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'cmake_args' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'cmake_target' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'cmake_clean_first' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'cmake_force_configure' from command line to 'False'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'ament_cmake_args' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.109s] Level 5:colcon.colcon_core.verb:set package 'motorinfo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.110s] DEBUG:colcon.colcon_core.verb:Building package 'motorinfo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/robosub_driver/build/motorinfo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/robosub_driver/install/motorinfo', 'merge_install': False, 'path': '/home/robosub/robosub_driver/src/motorinfo', 'symlink_install': False, 'test_result_base': None}
+[2.110s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.114s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/robosub_driver/src/sensorinfo' with build type 'ament_python'
+[2.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensorinfo', 'ament_prefix_path')
+[2.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/hook/ament_prefix_path.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/hook/ament_prefix_path.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/hook/ament_prefix_path.sh'
+[2.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.170s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/robosub_driver/library/ms5837-python'
+[2.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.950s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/robosub_driver/src/sensorinfo'
+[3.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/robosub_driver/build/ms5837': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/ms5837/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_driver/build/ms5837/build
+[11.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/robosub_driver/build/sensorinfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_driver/build/sensorinfo/build
+[15.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/robosub_driver/build/ms5837' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/ms5837/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_driver/build/ms5837/build
+[15.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/robosub_driver/library/ms5837-python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/ms5837/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ms5837 build --build-base /home/robosub/robosub_driver/build/ms5837/build install --record /home/robosub/robosub_driver/build/ms5837/install.log --single-version-externally-managed
+[16.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/robosub_driver/build/sensorinfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_driver/build/sensorinfo/build
+[16.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/robosub_driver/src/sensorinfo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensorinfo build --build-base /home/robosub/robosub_driver/build/sensorinfo/build install --record /home/robosub/robosub_driver/build/sensorinfo/install.log --single-version-externally-managed install_data --force
+[20.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/robosub_driver/library/ms5837-python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/ms5837/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ms5837 build --build-base /home/robosub/robosub_driver/build/ms5837/build install --record /home/robosub/robosub_driver/build/ms5837/install.log --single-version-externally-managed
+[20.584s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837' for CMake module files
+[20.587s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837' for CMake config files
+[20.590s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837/lib'
+[20.590s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837/bin'
+[20.591s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837/lib/pkgconfig/ms5837.pc'
+[20.592s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages'
+[20.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('ms5837', 'pythonpath')
+[20.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/ms5837/share/ms5837/hook/pythonpath.ps1'
+[20.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/robosub_driver/install/ms5837/share/ms5837/hook/pythonpath.dsv'
+[20.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/ms5837/share/ms5837/hook/pythonpath.sh'
+[20.601s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/ms5837/bin'
+[20.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ms5837)
+[20.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/ms5837/share/ms5837/package.ps1'
+[20.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/robosub_driver/install/ms5837/share/ms5837/package.dsv'
+[20.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/ms5837/share/ms5837/package.sh'
+[20.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/ms5837/share/ms5837/package.bash'
+[20.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/ms5837/share/ms5837/package.zsh'
+[20.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/robosub_driver/install/ms5837/share/colcon-core/packages/ms5837)
+[21.705s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo' for CMake module files
+[21.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/robosub_driver/src/sensorinfo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensorinfo build --build-base /home/robosub/robosub_driver/build/sensorinfo/build install --record /home/robosub/robosub_driver/build/sensorinfo/install.log --single-version-externally-managed install_data --force
+[21.728s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo' for CMake config files
+[21.745s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo/lib'
+[21.747s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo/bin'
+[21.747s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo/lib/pkgconfig/sensorinfo.pc'
+[21.749s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages'
+[21.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensorinfo', 'pythonpath')
+[21.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/hook/pythonpath.ps1'
+[21.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/hook/pythonpath.dsv'
+[21.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/hook/pythonpath.sh'
+[21.763s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/sensorinfo/bin'
+[21.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensorinfo)
+[21.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/package.ps1'
+[21.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/package.dsv'
+[21.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/package.sh'
+[21.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/package.bash'
+[21.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo/package.zsh'
+[21.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/robosub_driver/install/sensorinfo/share/colcon-core/packages/sensorinfo)
+[21.821s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/robosub_driver/src/motorinfo' with build type 'ament_python'
+[21.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('motorinfo', 'ament_prefix_path')
+[21.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/hook/ament_prefix_path.ps1'
+[21.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/hook/ament_prefix_path.dsv'
+[21.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/hook/ament_prefix_path.sh'
+[21.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.057s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/robosub_driver/src/motorinfo'
+[25.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[40.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/robosub_driver/build/motorinfo': AMENT_PREFIX_PATH=/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_driver/build/motorinfo/build
+[46.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/robosub_driver/build/motorinfo' returned '0': AMENT_PREFIX_PATH=/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robosub/robosub_driver/build/motorinfo/build
+[46.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/robosub_driver/src/motorinfo': AMENT_PREFIX_PATH=/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motorinfo build --build-base /home/robosub/robosub_driver/build/motorinfo/build install --record /home/robosub/robosub_driver/build/motorinfo/install.log --single-version-externally-managed install_data --force
+[50.166s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo' for CMake module files
+[50.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/robosub_driver/src/motorinfo' returned '0': AMENT_PREFIX_PATH=/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motorinfo build --build-base /home/robosub/robosub_driver/build/motorinfo/build install --record /home/robosub/robosub_driver/build/motorinfo/install.log --single-version-externally-managed install_data --force
+[50.182s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo' for CMake config files
+[50.195s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo/lib'
+[50.197s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo/bin'
+[50.198s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo/lib/pkgconfig/motorinfo.pc'
+[50.200s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages'
+[50.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('motorinfo', 'pythonpath')
+[50.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/hook/pythonpath.ps1'
+[50.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/hook/pythonpath.dsv'
+[50.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/hook/pythonpath.sh'
+[50.217s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/robosub_driver/install/motorinfo/bin'
+[50.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motorinfo)
+[50.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/package.ps1'
+[50.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/package.dsv'
+[50.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/package.sh'
+[50.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/package.bash'
+[50.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/robosub_driver/install/motorinfo/share/motorinfo/package.zsh'
+[50.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/robosub_driver/install/motorinfo/share/colcon-core/packages/motorinfo)
+[50.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[50.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[50.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[50.235s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[50.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[50.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[50.266s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[50.352s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/robosub_driver/install/local_setup.ps1'
+[50.357s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosub/robosub_driver/install/_local_setup_util_ps1.py'
+[50.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/robosub_driver/install/setup.ps1'
+[50.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/robosub_driver/install/local_setup.sh'
+[50.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosub/robosub_driver/install/_local_setup_util_sh.py'
+[50.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/robosub_driver/install/setup.sh'
+[50.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/robosub_driver/install/local_setup.bash'
+[50.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/robosub_driver/install/setup.bash'
+[50.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/robosub_driver/install/local_setup.zsh'
+[50.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/robosub_driver/install/setup.zsh'

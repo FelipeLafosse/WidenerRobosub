@@ -1,0 +1,575 @@
+[0.000000] (-) TimerEvent: {}
+[0.001939] (ms5837) JobQueued: {'identifier': 'ms5837', 'dependencies': OrderedDict()}
+[0.002575] (sensorinfo) JobQueued: {'identifier': 'sensorinfo', 'dependencies': OrderedDict()}
+[0.003159] (motorinfo) JobQueued: {'identifier': 'motorinfo', 'dependencies': OrderedDict({'sensorinfo': '/home/robosub/robosub_driver/install/sensorinfo'})}
+[0.003367] (sensorinfo) JobStarted: {'identifier': 'sensorinfo'}
+[0.057645] (ms5837) JobStarted: {'identifier': 'ms5837'}
+[0.099302] (-) TimerEvent: {}
+[0.200199] (-) TimerEvent: {}
+[0.301608] (-) TimerEvent: {}
+[0.402407] (-) TimerEvent: {}
+[0.503402] (-) TimerEvent: {}
+[0.604053] (-) TimerEvent: {}
+[0.704785] (-) TimerEvent: {}
+[0.805560] (-) TimerEvent: {}
+[0.907385] (-) TimerEvent: {}
+[1.008496] (-) TimerEvent: {}
+[1.112843] (-) TimerEvent: {}
+[1.215952] (-) TimerEvent: {}
+[1.317050] (-) TimerEvent: {}
+[1.418018] (-) TimerEvent: {}
+[1.518729] (-) TimerEvent: {}
+[1.619363] (-) TimerEvent: {}
+[1.720475] (-) TimerEvent: {}
+[1.821844] (-) TimerEvent: {}
+[1.922828] (-) TimerEvent: {}
+[2.023483] (-) TimerEvent: {}
+[2.124373] (-) TimerEvent: {}
+[2.225439] (-) TimerEvent: {}
+[2.326170] (-) TimerEvent: {}
+[2.426851] (-) TimerEvent: {}
+[2.527712] (-) TimerEvent: {}
+[2.628459] (-) TimerEvent: {}
+[2.729103] (-) TimerEvent: {}
+[2.829784] (-) TimerEvent: {}
+[2.930477] (-) TimerEvent: {}
+[3.031200] (-) TimerEvent: {}
+[3.132190] (-) TimerEvent: {}
+[3.232969] (-) TimerEvent: {}
+[3.334013] (-) TimerEvent: {}
+[3.434739] (-) TimerEvent: {}
+[3.535476] (-) TimerEvent: {}
+[3.637359] (-) TimerEvent: {}
+[3.739494] (-) TimerEvent: {}
+[3.841456] (-) TimerEvent: {}
+[3.944468] (-) TimerEvent: {}
+[4.045669] (-) TimerEvent: {}
+[4.148344] (-) TimerEvent: {}
+[4.248992] (-) TimerEvent: {}
+[4.349706] (-) TimerEvent: {}
+[4.450377] (-) TimerEvent: {}
+[4.551042] (-) TimerEvent: {}
+[4.652172] (-) TimerEvent: {}
+[4.752900] (-) TimerEvent: {}
+[4.853660] (-) TimerEvent: {}
+[4.956009] (-) TimerEvent: {}
+[5.056792] (-) TimerEvent: {}
+[5.158394] (-) TimerEvent: {}
+[5.259182] (-) TimerEvent: {}
+[5.361390] (-) TimerEvent: {}
+[5.462067] (-) TimerEvent: {}
+[5.563191] (-) TimerEvent: {}
+[5.664540] (-) TimerEvent: {}
+[5.765338] (-) TimerEvent: {}
+[5.866979] (-) TimerEvent: {}
+[5.967804] (-) TimerEvent: {}
+[6.069187] (-) TimerEvent: {}
+[6.170537] (-) TimerEvent: {}
+[6.271358] (-) TimerEvent: {}
+[6.372995] (-) TimerEvent: {}
+[6.474266] (-) TimerEvent: {}
+[6.574993] (-) TimerEvent: {}
+[6.675904] (-) TimerEvent: {}
+[6.777450] (-) TimerEvent: {}
+[6.878151] (-) TimerEvent: {}
+[6.980864] (-) TimerEvent: {}
+[7.081944] (-) TimerEvent: {}
+[7.185371] (-) TimerEvent: {}
+[7.286274] (-) TimerEvent: {}
+[7.392517] (-) TimerEvent: {}
+[7.498739] (-) TimerEvent: {}
+[7.601908] (-) TimerEvent: {}
+[7.707398] (-) TimerEvent: {}
+[7.812569] (-) TimerEvent: {}
+[7.913294] (-) TimerEvent: {}
+[8.013959] (-) TimerEvent: {}
+[8.117049] (-) TimerEvent: {}
+[8.221190] (-) TimerEvent: {}
+[8.322650] (-) TimerEvent: {}
+[8.360292] (ms5837) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/robosub/robosub_driver/build/ms5837/build'], 'cwd': '/home/robosub/robosub_driver/build/ms5837', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robosub/robosub_driver/install/motion_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1607', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1819', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3142', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_driver/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/driver:@/tmp/.ICE-unix/1783,unix/driver:/tmp/.ICE-unix/1783', 'INVOCATION_ID': '4a1c96a76c884d37859958ec35f9b6f4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f4603dd829b1f877.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.6IDS42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-499dda2431.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_driver/build/ms5837', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_driver/build/ms5837/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.424412] (-) TimerEvent: {}
+[8.525149] (-) TimerEvent: {}
+[8.628892] (-) TimerEvent: {}
+[8.738543] (-) TimerEvent: {}
+[8.846501] (-) TimerEvent: {}
+[8.927175] (sensorinfo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/robosub/robosub_driver/build/sensorinfo/build'], 'cwd': '/home/robosub/robosub_driver/build/sensorinfo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robosub/robosub_driver/install/motion_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1607', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1819', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3142', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_driver/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/driver:@/tmp/.ICE-unix/1783,unix/driver:/tmp/.ICE-unix/1783', 'INVOCATION_ID': '4a1c96a76c884d37859958ec35f9b6f4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f4603dd829b1f877.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.6IDS42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-499dda2431.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_driver/build/sensorinfo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.950450] (-) TimerEvent: {}
+[9.054520] (-) TimerEvent: {}
+[9.155866] (-) TimerEvent: {}
+[9.257820] (-) TimerEvent: {}
+[9.360025] (-) TimerEvent: {}
+[9.460907] (-) TimerEvent: {}
+[9.562888] (-) TimerEvent: {}
+[9.664301] (-) TimerEvent: {}
+[9.765643] (-) TimerEvent: {}
+[9.867145] (-) TimerEvent: {}
+[9.967858] (-) TimerEvent: {}
+[10.068673] (-) TimerEvent: {}
+[10.170178] (-) TimerEvent: {}
+[10.271163] (-) TimerEvent: {}
+[10.371925] (-) TimerEvent: {}
+[10.472708] (-) TimerEvent: {}
+[10.573474] (-) TimerEvent: {}
+[10.674199] (-) TimerEvent: {}
+[10.775477] (-) TimerEvent: {}
+[10.877312] (-) TimerEvent: {}
+[10.978052] (-) TimerEvent: {}
+[11.079368] (-) TimerEvent: {}
+[11.181944] (-) TimerEvent: {}
+[11.282734] (-) TimerEvent: {}
+[11.384705] (-) TimerEvent: {}
+[11.485592] (-) TimerEvent: {}
+[11.586558] (-) TimerEvent: {}
+[11.587907] (sensorinfo) StdoutLine: {'line': b'running develop\n'}
+[11.686743] (-) TimerEvent: {}
+[11.787603] (-) TimerEvent: {}
+[11.888375] (-) TimerEvent: {}
+[11.989178] (-) TimerEvent: {}
+[12.089950] (-) TimerEvent: {}
+[12.190721] (-) TimerEvent: {}
+[12.291455] (-) TimerEvent: {}
+[12.392171] (-) TimerEvent: {}
+[12.492995] (-) TimerEvent: {}
+[12.593801] (-) TimerEvent: {}
+[12.694530] (-) TimerEvent: {}
+[12.795262] (-) TimerEvent: {}
+[12.895981] (-) TimerEvent: {}
+[12.996827] (-) TimerEvent: {}
+[13.097774] (-) TimerEvent: {}
+[13.199392] (-) TimerEvent: {}
+[13.303143] (-) TimerEvent: {}
+[13.360734] (ms5837) CommandEnded: {'returncode': 0}
+[13.372351] (ms5837) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ms5837', 'build', '--build-base', '/home/robosub/robosub_driver/build/ms5837/build', 'install', '--record', '/home/robosub/robosub_driver/build/ms5837/install.log', '--single-version-externally-managed'], 'cwd': '/home/robosub/robosub_driver/library/ms5837-python', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robosub/robosub_driver/install/motion_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1607', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1819', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3142', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_driver/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/driver:@/tmp/.ICE-unix/1783,unix/driver:/tmp/.ICE-unix/1783', 'INVOCATION_ID': '4a1c96a76c884d37859958ec35f9b6f4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f4603dd829b1f877.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.6IDS42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-499dda2431.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_driver/build/ms5837', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_driver/build/ms5837/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.404513] (-) TimerEvent: {}
+[13.505593] (-) TimerEvent: {}
+[13.609447] (-) TimerEvent: {}
+[13.710549] (-) TimerEvent: {}
+[13.816395] (-) TimerEvent: {}
+[13.920437] (-) TimerEvent: {}
+[14.021713] (-) TimerEvent: {}
+[14.063482] (sensorinfo) StdoutLine: {'line': b'Removing /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo.egg-link (link to .)\n'}
+[14.122453] (-) TimerEvent: {}
+[14.227475] (-) TimerEvent: {}
+[14.332503] (-) TimerEvent: {}
+[14.434444] (-) TimerEvent: {}
+[14.443943] (sensorinfo) CommandEnded: {'returncode': 0}
+[14.452263] (sensorinfo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensorinfo', 'build', '--build-base', '/home/robosub/robosub_driver/build/sensorinfo/build', 'install', '--record', '/home/robosub/robosub_driver/build/sensorinfo/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/robosub/robosub_driver/src/sensorinfo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robosub/robosub_driver/install/motion_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1607', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1819', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3142', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_driver/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/driver:@/tmp/.ICE-unix/1783,unix/driver:/tmp/.ICE-unix/1783', 'INVOCATION_ID': '4a1c96a76c884d37859958ec35f9b6f4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f4603dd829b1f877.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.6IDS42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-499dda2431.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_driver/build/sensorinfo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_driver/build/sensorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.537330] (-) TimerEvent: {}
+[14.638834] (-) TimerEvent: {}
+[14.740642] (-) TimerEvent: {}
+[14.843202] (-) TimerEvent: {}
+[14.945854] (-) TimerEvent: {}
+[15.046682] (-) TimerEvent: {}
+[15.148299] (-) TimerEvent: {}
+[15.249129] (-) TimerEvent: {}
+[15.351588] (-) TimerEvent: {}
+[15.452304] (-) TimerEvent: {}
+[15.552990] (-) TimerEvent: {}
+[15.653762] (-) TimerEvent: {}
+[15.754647] (-) TimerEvent: {}
+[15.855362] (-) TimerEvent: {}
+[15.956102] (-) TimerEvent: {}
+[16.057341] (-) TimerEvent: {}
+[16.158434] (-) TimerEvent: {}
+[16.259190] (-) TimerEvent: {}
+[16.359945] (-) TimerEvent: {}
+[16.461362] (-) TimerEvent: {}
+[16.562167] (-) TimerEvent: {}
+[16.662899] (-) TimerEvent: {}
+[16.751773] (sensorinfo) StdoutLine: {'line': b'running egg_info\n'}
+[16.763107] (-) TimerEvent: {}
+[16.863886] (-) TimerEvent: {}
+[16.943608] (sensorinfo) StdoutLine: {'line': b'writing ../../build/sensorinfo/sensorinfo.egg-info/PKG-INFO\n'}
+[16.946313] (sensorinfo) StdoutLine: {'line': b'writing dependency_links to ../../build/sensorinfo/sensorinfo.egg-info/dependency_links.txt\n'}
+[16.946989] (sensorinfo) StdoutLine: {'line': b'writing entry points to ../../build/sensorinfo/sensorinfo.egg-info/entry_points.txt\n'}
+[16.949128] (sensorinfo) StdoutLine: {'line': b'writing requirements to ../../build/sensorinfo/sensorinfo.egg-info/requires.txt\n'}
+[16.949799] (sensorinfo) StdoutLine: {'line': b'writing top-level names to ../../build/sensorinfo/sensorinfo.egg-info/top_level.txt\n'}
+[16.965619] (-) TimerEvent: {}
+[17.067311] (-) TimerEvent: {}
+[17.168148] (-) TimerEvent: {}
+[17.270119] (-) TimerEvent: {}
+[17.335717] (sensorinfo) StdoutLine: {'line': b"reading manifest file '../../build/sensorinfo/sensorinfo.egg-info/SOURCES.txt'\n"}
+[17.340853] (sensorinfo) StdoutLine: {'line': b"writing manifest file '../../build/sensorinfo/sensorinfo.egg-info/SOURCES.txt'\n"}
+[17.341836] (sensorinfo) StdoutLine: {'line': b'running build\n'}
+[17.342859] (sensorinfo) StdoutLine: {'line': b'running build_py\n'}
+[17.344113] (sensorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/build/sensorinfo/build\n'}
+[17.345264] (sensorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/build/sensorinfo/build/lib\n'}
+[17.346026] (sensorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo\n'}
+[17.346627] (sensorinfo) StdoutLine: {'line': b'copying sensorinfo/__init__.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo\n'}
+[17.351314] (sensorinfo) StdoutLine: {'line': b'copying sensorinfo/imu.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo\n'}
+[17.352271] (sensorinfo) StdoutLine: {'line': b'copying sensorinfo/hydrophone.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo\n'}
+[17.353003] (sensorinfo) StdoutLine: {'line': b'copying sensorinfo/depth.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo\n'}
+[17.353666] (sensorinfo) StdoutLine: {'line': b'copying sensorinfo/depthIMU.py -> /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo\n'}
+[17.355668] (sensorinfo) StdoutLine: {'line': b'running install\n'}
+[17.370739] (-) TimerEvent: {}
+[17.384463] (sensorinfo) StdoutLine: {'line': b'running install_lib\n'}
+[17.470921] (-) TimerEvent: {}
+[17.572579] (-) TimerEvent: {}
+[17.581738] (sensorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo\n'}
+[17.583136] (sensorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/__init__.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo\n'}
+[17.584141] (sensorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/imu.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo\n'}
+[17.585072] (sensorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/hydrophone.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo\n'}
+[17.586360] (sensorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/depth.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo\n'}
+[17.588276] (sensorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/sensorinfo/build/lib/sensorinfo/depthIMU.py -> /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo\n'}
+[17.591083] (sensorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/__init__.py to __init__.cpython-312.pyc\n'}
+[17.593009] (sensorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/imu.py to imu.cpython-312.pyc\n'}
+[17.599073] (sensorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/hydrophone.py to hydrophone.cpython-312.pyc\n'}
+[17.604268] (sensorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/depth.py to depth.cpython-312.pyc\n'}
+[17.612871] (sensorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo/depthIMU.py to depthIMU.cpython-312.pyc\n'}
+[17.614106] (sensorinfo) StdoutLine: {'line': b'running install_data\n'}
+[17.615538] (sensorinfo) StdoutLine: {'line': b'copying resource/sensorinfo -> /home/robosub/robosub_driver/install/sensorinfo/share/ament_index/resource_index/packages\n'}
+[17.617570] (sensorinfo) StdoutLine: {'line': b'copying package.xml -> /home/robosub/robosub_driver/install/sensorinfo/share/sensorinfo\n'}
+[17.620529] (sensorinfo) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.672750] (-) TimerEvent: {}
+[17.773458] (-) TimerEvent: {}
+[17.839451] (sensorinfo) StdoutLine: {'line': b'Copying ../../build/sensorinfo/sensorinfo.egg-info to /home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages/sensorinfo-0.0.0-py3.12.egg-info\n'}
+[17.850445] (sensorinfo) StdoutLine: {'line': b'running install_scripts\n'}
+[17.873637] (-) TimerEvent: {}
+[17.974649] (-) TimerEvent: {}
+[18.075368] (-) TimerEvent: {}
+[18.176335] (-) TimerEvent: {}
+[18.278912] (-) TimerEvent: {}
+[18.380352] (-) TimerEvent: {}
+[18.448488] (ms5837) CommandEnded: {'returncode': 0}
+[18.483443] (-) TimerEvent: {}
+[18.509288] (ms5837) JobEnded: {'identifier': 'ms5837', 'rc': 0}
+[18.583934] (-) TimerEvent: {}
+[18.685122] (-) TimerEvent: {}
+[18.787422] (-) TimerEvent: {}
+[18.888034] (-) TimerEvent: {}
+[18.988693] (-) TimerEvent: {}
+[19.089326] (-) TimerEvent: {}
+[19.189998] (-) TimerEvent: {}
+[19.291408] (-) TimerEvent: {}
+[19.300865] (sensorinfo) StdoutLine: {'line': b'Installing depth script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo\n'}
+[19.302105] (sensorinfo) StdoutLine: {'line': b'Installing depthIMU script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo\n'}
+[19.305510] (sensorinfo) StdoutLine: {'line': b'Installing hydrophone script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo\n'}
+[19.308643] (sensorinfo) StdoutLine: {'line': b'Installing imu script to /home/robosub/robosub_driver/install/sensorinfo/lib/sensorinfo\n'}
+[19.312750] (sensorinfo) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/robosub_driver/build/sensorinfo/install.log'\n"}
+[19.394495] (-) TimerEvent: {}
+[19.495955] (-) TimerEvent: {}
+[19.592441] (sensorinfo) CommandEnded: {'returncode': 0}
+[19.609175] (-) TimerEvent: {}
+[19.708707] (sensorinfo) JobEnded: {'identifier': 'sensorinfo', 'rc': 0}
+[19.721987] (-) TimerEvent: {}
+[19.726324] (motorinfo) JobStarted: {'identifier': 'motorinfo'}
+[19.822310] (-) TimerEvent: {}
+[19.924853] (-) TimerEvent: {}
+[20.027294] (-) TimerEvent: {}
+[20.128188] (-) TimerEvent: {}
+[20.229020] (-) TimerEvent: {}
+[20.330409] (-) TimerEvent: {}
+[20.433555] (-) TimerEvent: {}
+[20.534399] (-) TimerEvent: {}
+[20.635092] (-) TimerEvent: {}
+[20.736068] (-) TimerEvent: {}
+[20.838862] (-) TimerEvent: {}
+[20.940384] (-) TimerEvent: {}
+[21.043936] (-) TimerEvent: {}
+[21.145307] (-) TimerEvent: {}
+[21.246886] (-) TimerEvent: {}
+[21.348974] (-) TimerEvent: {}
+[21.456984] (-) TimerEvent: {}
+[21.558774] (-) TimerEvent: {}
+[21.670697] (-) TimerEvent: {}
+[21.772076] (-) TimerEvent: {}
+[21.878115] (-) TimerEvent: {}
+[21.988533] (-) TimerEvent: {}
+[22.095579] (-) TimerEvent: {}
+[22.197187] (-) TimerEvent: {}
+[22.308496] (-) TimerEvent: {}
+[22.413767] (-) TimerEvent: {}
+[22.520070] (-) TimerEvent: {}
+[22.628735] (-) TimerEvent: {}
+[22.737852] (-) TimerEvent: {}
+[22.846419] (-) TimerEvent: {}
+[22.951426] (-) TimerEvent: {}
+[23.074021] (-) TimerEvent: {}
+[23.177529] (-) TimerEvent: {}
+[23.283501] (-) TimerEvent: {}
+[23.390747] (-) TimerEvent: {}
+[23.498546] (-) TimerEvent: {}
+[23.612675] (-) TimerEvent: {}
+[23.719393] (-) TimerEvent: {}
+[23.830923] (-) TimerEvent: {}
+[23.934312] (-) TimerEvent: {}
+[24.044344] (-) TimerEvent: {}
+[24.147487] (-) TimerEvent: {}
+[24.252348] (-) TimerEvent: {}
+[24.359635] (-) TimerEvent: {}
+[24.467778] (-) TimerEvent: {}
+[24.575918] (-) TimerEvent: {}
+[24.686162] (-) TimerEvent: {}
+[24.792461] (-) TimerEvent: {}
+[24.897629] (-) TimerEvent: {}
+[25.004795] (-) TimerEvent: {}
+[25.111399] (-) TimerEvent: {}
+[25.213168] (-) TimerEvent: {}
+[25.319588] (-) TimerEvent: {}
+[25.426879] (-) TimerEvent: {}
+[25.531873] (-) TimerEvent: {}
+[25.640646] (-) TimerEvent: {}
+[25.753461] (-) TimerEvent: {}
+[25.862691] (-) TimerEvent: {}
+[25.966829] (-) TimerEvent: {}
+[26.072537] (-) TimerEvent: {}
+[26.177266] (-) TimerEvent: {}
+[26.283155] (-) TimerEvent: {}
+[26.387911] (-) TimerEvent: {}
+[26.495695] (-) TimerEvent: {}
+[26.601716] (-) TimerEvent: {}
+[26.705914] (-) TimerEvent: {}
+[26.811754] (-) TimerEvent: {}
+[26.918065] (-) TimerEvent: {}
+[27.028197] (-) TimerEvent: {}
+[27.135377] (-) TimerEvent: {}
+[27.242179] (-) TimerEvent: {}
+[27.346910] (-) TimerEvent: {}
+[27.453369] (-) TimerEvent: {}
+[27.561147] (-) TimerEvent: {}
+[27.671705] (-) TimerEvent: {}
+[27.777103] (-) TimerEvent: {}
+[27.880575] (-) TimerEvent: {}
+[27.986285] (-) TimerEvent: {}
+[28.091880] (-) TimerEvent: {}
+[28.193649] (-) TimerEvent: {}
+[28.298666] (-) TimerEvent: {}
+[28.403378] (-) TimerEvent: {}
+[28.507551] (-) TimerEvent: {}
+[28.621469] (-) TimerEvent: {}
+[28.732535] (-) TimerEvent: {}
+[28.833952] (-) TimerEvent: {}
+[28.936968] (-) TimerEvent: {}
+[29.041422] (-) TimerEvent: {}
+[29.146526] (-) TimerEvent: {}
+[29.252415] (-) TimerEvent: {}
+[29.361870] (-) TimerEvent: {}
+[29.467920] (-) TimerEvent: {}
+[29.574114] (-) TimerEvent: {}
+[29.678594] (-) TimerEvent: {}
+[29.784966] (-) TimerEvent: {}
+[29.887791] (-) TimerEvent: {}
+[29.998084] (-) TimerEvent: {}
+[30.100897] (-) TimerEvent: {}
+[30.205090] (-) TimerEvent: {}
+[30.314630] (-) TimerEvent: {}
+[30.423126] (-) TimerEvent: {}
+[30.530336] (-) TimerEvent: {}
+[30.639817] (-) TimerEvent: {}
+[30.743900] (-) TimerEvent: {}
+[30.849569] (-) TimerEvent: {}
+[30.961795] (-) TimerEvent: {}
+[31.069123] (-) TimerEvent: {}
+[31.173021] (-) TimerEvent: {}
+[31.280606] (-) TimerEvent: {}
+[31.388487] (-) TimerEvent: {}
+[31.492658] (-) TimerEvent: {}
+[31.603387] (-) TimerEvent: {}
+[31.705689] (-) TimerEvent: {}
+[31.812900] (-) TimerEvent: {}
+[31.922862] (-) TimerEvent: {}
+[32.029935] (-) TimerEvent: {}
+[32.140288] (-) TimerEvent: {}
+[32.244720] (-) TimerEvent: {}
+[32.355893] (-) TimerEvent: {}
+[32.457794] (-) TimerEvent: {}
+[32.566514] (-) TimerEvent: {}
+[32.671320] (-) TimerEvent: {}
+[32.775412] (-) TimerEvent: {}
+[32.886493] (-) TimerEvent: {}
+[32.994679] (-) TimerEvent: {}
+[33.104292] (-) TimerEvent: {}
+[33.208992] (-) TimerEvent: {}
+[33.318744] (-) TimerEvent: {}
+[33.420447] (-) TimerEvent: {}
+[33.531522] (-) TimerEvent: {}
+[33.633837] (-) TimerEvent: {}
+[33.740319] (-) TimerEvent: {}
+[33.844927] (-) TimerEvent: {}
+[33.952909] (-) TimerEvent: {}
+[34.060351] (-) TimerEvent: {}
+[34.168536] (-) TimerEvent: {}
+[34.282391] (-) TimerEvent: {}
+[34.390947] (-) TimerEvent: {}
+[34.496809] (-) TimerEvent: {}
+[34.605368] (-) TimerEvent: {}
+[34.707536] (-) TimerEvent: {}
+[34.808405] (-) TimerEvent: {}
+[34.915907] (-) TimerEvent: {}
+[35.021543] (-) TimerEvent: {}
+[35.134578] (-) TimerEvent: {}
+[35.239935] (-) TimerEvent: {}
+[35.347479] (-) TimerEvent: {}
+[35.453067] (-) TimerEvent: {}
+[35.562472] (-) TimerEvent: {}
+[35.668582] (-) TimerEvent: {}
+[35.788472] (-) TimerEvent: {}
+[35.905951] (-) TimerEvent: {}
+[36.008725] (-) TimerEvent: {}
+[36.115910] (-) TimerEvent: {}
+[36.232134] (-) TimerEvent: {}
+[36.340272] (-) TimerEvent: {}
+[36.445772] (-) TimerEvent: {}
+[36.552441] (-) TimerEvent: {}
+[36.657176] (-) TimerEvent: {}
+[36.762507] (-) TimerEvent: {}
+[36.867524] (-) TimerEvent: {}
+[36.973637] (-) TimerEvent: {}
+[37.084461] (-) TimerEvent: {}
+[37.192417] (-) TimerEvent: {}
+[37.296357] (-) TimerEvent: {}
+[37.404440] (-) TimerEvent: {}
+[37.515530] (-) TimerEvent: {}
+[37.620401] (-) TimerEvent: {}
+[37.723766] (-) TimerEvent: {}
+[37.827605] (-) TimerEvent: {}
+[37.932808] (-) TimerEvent: {}
+[38.038107] (-) TimerEvent: {}
+[38.146601] (-) TimerEvent: {}
+[38.261399] (-) TimerEvent: {}
+[38.371143] (-) TimerEvent: {}
+[38.386863] (motorinfo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/robosub/robosub_driver/build/motorinfo/build'], 'cwd': '/home/robosub/robosub_driver/build/motorinfo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robosub/robosub_driver/install/motion_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1607', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1819', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3142', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_driver/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/driver:@/tmp/.ICE-unix/1783,unix/driver:/tmp/.ICE-unix/1783', 'INVOCATION_ID': '4a1c96a76c884d37859958ec35f9b6f4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f4603dd829b1f877.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.6IDS42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-499dda2431.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_driver/build/motorinfo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[38.473383] (-) TimerEvent: {}
+[38.584437] (-) TimerEvent: {}
+[38.686005] (-) TimerEvent: {}
+[38.790019] (-) TimerEvent: {}
+[38.905642] (-) TimerEvent: {}
+[39.015026] (-) TimerEvent: {}
+[39.123566] (-) TimerEvent: {}
+[39.228429] (-) TimerEvent: {}
+[39.339562] (-) TimerEvent: {}
+[39.442653] (-) TimerEvent: {}
+[39.548695] (-) TimerEvent: {}
+[39.652886] (-) TimerEvent: {}
+[39.756353] (-) TimerEvent: {}
+[39.858400] (-) TimerEvent: {}
+[39.960065] (-) TimerEvent: {}
+[40.061394] (-) TimerEvent: {}
+[40.164051] (-) TimerEvent: {}
+[40.268436] (-) TimerEvent: {}
+[40.369405] (-) TimerEvent: {}
+[40.471414] (-) TimerEvent: {}
+[40.572803] (-) TimerEvent: {}
+[40.679665] (-) TimerEvent: {}
+[40.793589] (-) TimerEvent: {}
+[40.894184] (-) TimerEvent: {}
+[40.994875] (-) TimerEvent: {}
+[41.095751] (-) TimerEvent: {}
+[41.196484] (-) TimerEvent: {}
+[41.297298] (-) TimerEvent: {}
+[41.397948] (-) TimerEvent: {}
+[41.498743] (-) TimerEvent: {}
+[41.599350] (-) TimerEvent: {}
+[41.699972] (-) TimerEvent: {}
+[41.800641] (-) TimerEvent: {}
+[41.901363] (-) TimerEvent: {}
+[42.002156] (-) TimerEvent: {}
+[42.102823] (-) TimerEvent: {}
+[42.131908] (motorinfo) StdoutLine: {'line': b'running develop\n'}
+[42.203005] (-) TimerEvent: {}
+[42.303665] (-) TimerEvent: {}
+[42.404332] (-) TimerEvent: {}
+[42.504968] (-) TimerEvent: {}
+[42.605612] (-) TimerEvent: {}
+[42.706279] (-) TimerEvent: {}
+[42.806944] (-) TimerEvent: {}
+[42.907623] (-) TimerEvent: {}
+[43.008280] (-) TimerEvent: {}
+[43.108875] (-) TimerEvent: {}
+[43.209527] (-) TimerEvent: {}
+[43.310148] (-) TimerEvent: {}
+[43.410805] (-) TimerEvent: {}
+[43.511459] (-) TimerEvent: {}
+[43.612299] (-) TimerEvent: {}
+[43.713045] (-) TimerEvent: {}
+[43.797731] (motorinfo) StdoutLine: {'line': b'Removing /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo.egg-link (link to .)\n'}
+[43.813436] (-) TimerEvent: {}
+[43.914665] (-) TimerEvent: {}
+[44.015714] (-) TimerEvent: {}
+[44.041430] (motorinfo) CommandEnded: {'returncode': 0}
+[44.057353] (motorinfo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motorinfo', 'build', '--build-base', '/home/robosub/robosub_driver/build/motorinfo/build', 'install', '--record', '/home/robosub/robosub_driver/build/motorinfo/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/robosub/robosub_driver/src/motorinfo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robosub/robosub_driver/install/motion_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robosub', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1607', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1819', 'BUNDLED_DEBUGPY_PATH': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3142', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/robosub_driver/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robosub', 'JOURNAL_STREAM': '8:15119', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/driver:@/tmp/.ICE-unix/1783,unix/driver:/tmp/.ICE-unix/1783', 'INVOCATION_ID': '4a1c96a76c884d37859958ec35f9b6f4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/robosub/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-f4603dd829b1f877.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.6IDS42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-499dda2431.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/robosub_driver/install/sensorinfo:/home/robosub/robosub_driver/install/motorinfo:/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/robosub_driver/build/motorinfo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/robosub_driver/build/motorinfo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/sensorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/ms5837/lib/python3.12/site-packages:/home/robosub/robosub_driver/install/motion_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/robosub/robosub_driver/install/motion_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[44.115880] (-) TimerEvent: {}
+[44.216623] (-) TimerEvent: {}
+[44.317291] (-) TimerEvent: {}
+[44.417946] (-) TimerEvent: {}
+[44.518607] (-) TimerEvent: {}
+[44.619298] (-) TimerEvent: {}
+[44.719966] (-) TimerEvent: {}
+[44.820744] (-) TimerEvent: {}
+[44.921434] (-) TimerEvent: {}
+[45.022050] (-) TimerEvent: {}
+[45.122725] (-) TimerEvent: {}
+[45.223358] (-) TimerEvent: {}
+[45.323971] (-) TimerEvent: {}
+[45.424680] (-) TimerEvent: {}
+[45.525335] (-) TimerEvent: {}
+[45.625958] (-) TimerEvent: {}
+[45.726627] (-) TimerEvent: {}
+[45.827297] (-) TimerEvent: {}
+[45.905419] (motorinfo) StdoutLine: {'line': b'running egg_info\n'}
+[45.927459] (-) TimerEvent: {}
+[46.028104] (-) TimerEvent: {}
+[46.038164] (motorinfo) StdoutLine: {'line': b'writing ../../build/motorinfo/motorinfo.egg-info/PKG-INFO\n'}
+[46.040589] (motorinfo) StdoutLine: {'line': b'writing dependency_links to ../../build/motorinfo/motorinfo.egg-info/dependency_links.txt\n'}
+[46.041802] (motorinfo) StdoutLine: {'line': b'writing entry points to ../../build/motorinfo/motorinfo.egg-info/entry_points.txt\n'}
+[46.043502] (motorinfo) StdoutLine: {'line': b'writing requirements to ../../build/motorinfo/motorinfo.egg-info/requires.txt\n'}
+[46.045191] (motorinfo) StdoutLine: {'line': b'writing top-level names to ../../build/motorinfo/motorinfo.egg-info/top_level.txt\n'}
+[46.128336] (-) TimerEvent: {}
+[46.229136] (-) TimerEvent: {}
+[46.329937] (-) TimerEvent: {}
+[46.390799] (motorinfo) StdoutLine: {'line': b"reading manifest file '../../build/motorinfo/motorinfo.egg-info/SOURCES.txt'\n"}
+[46.395569] (motorinfo) StdoutLine: {'line': b"writing manifest file '../../build/motorinfo/motorinfo.egg-info/SOURCES.txt'\n"}
+[46.396617] (motorinfo) StdoutLine: {'line': b'running build\n'}
+[46.397188] (motorinfo) StdoutLine: {'line': b'running build_py\n'}
+[46.397915] (motorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/build/motorinfo/build\n'}
+[46.398743] (motorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/build/motorinfo/build/lib\n'}
+[46.399333] (motorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo\n'}
+[46.399812] (motorinfo) StdoutLine: {'line': b'copying motorinfo/__init__.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo\n'}
+[46.400452] (motorinfo) StdoutLine: {'line': b'copying motorinfo/motorauv2.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo\n'}
+[46.401192] (motorinfo) StdoutLine: {'line': b'copying motorinfo/motorauv.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo\n'}
+[46.402013] (motorinfo) StdoutLine: {'line': b'copying motorinfo/motorcommand.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo\n'}
+[46.402905] (motorinfo) StdoutLine: {'line': b'copying motorinfo/motorkey.py -> /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo\n'}
+[46.404760] (motorinfo) StdoutLine: {'line': b'running install\n'}
+[46.428145] (motorinfo) StdoutLine: {'line': b'running install_lib\n'}
+[46.430059] (-) TimerEvent: {}
+[46.530731] (-) TimerEvent: {}
+[46.595444] (motorinfo) StdoutLine: {'line': b'creating /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo\n'}
+[46.596682] (motorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/__init__.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo\n'}
+[46.597445] (motorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorauv2.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo\n'}
+[46.598439] (motorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorauv.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo\n'}
+[46.599515] (motorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorcommand.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo\n'}
+[46.600516] (motorinfo) StdoutLine: {'line': b'copying /home/robosub/robosub_driver/build/motorinfo/build/lib/motorinfo/motorkey.py -> /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo\n'}
+[46.603264] (motorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/__init__.py to __init__.cpython-312.pyc\n'}
+[46.605051] (motorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorauv2.py to motorauv2.cpython-312.pyc\n'}
+[46.613528] (motorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorauv.py to motorauv.cpython-312.pyc\n'}
+[46.619708] (motorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorcommand.py to motorcommand.cpython-312.pyc\n'}
+[46.625373] (motorinfo) StdoutLine: {'line': b'byte-compiling /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo/motorkey.py to motorkey.cpython-312.pyc\n'}
+[46.630900] (-) TimerEvent: {}
+[46.634689] (motorinfo) StdoutLine: {'line': b'running install_data\n'}
+[46.635815] (motorinfo) StdoutLine: {'line': b'copying resource/motorinfo -> /home/robosub/robosub_driver/install/motorinfo/share/ament_index/resource_index/packages\n'}
+[46.636592] (motorinfo) StdoutLine: {'line': b'copying package.xml -> /home/robosub/robosub_driver/install/motorinfo/share/motorinfo\n'}
+[46.637346] (motorinfo) StdoutLine: {'line': b'running install_egg_info\n'}
+[46.731052] (-) TimerEvent: {}
+[46.812483] (motorinfo) StdoutLine: {'line': b'Copying ../../build/motorinfo/motorinfo.egg-info to /home/robosub/robosub_driver/install/motorinfo/lib/python3.12/site-packages/motorinfo-0.0.0-py3.12.egg-info\n'}
+[46.817713] (motorinfo) StdoutLine: {'line': b'running install_scripts\n'}
+[46.831190] (-) TimerEvent: {}
+[46.931819] (-) TimerEvent: {}
+[47.032562] (-) TimerEvent: {}
+[47.133195] (-) TimerEvent: {}
+[47.233842] (-) TimerEvent: {}
+[47.334532] (-) TimerEvent: {}
+[47.435147] (-) TimerEvent: {}
+[47.535810] (-) TimerEvent: {}
+[47.636596] (-) TimerEvent: {}
+[47.737293] (-) TimerEvent: {}
+[47.825240] (motorinfo) StdoutLine: {'line': b'Installing motorauv script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo\n'}
+[47.826359] (motorinfo) StdoutLine: {'line': b'Installing motorauv2 script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo\n'}
+[47.827805] (motorinfo) StdoutLine: {'line': b'Installing motorcommand script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo\n'}
+[47.828779] (motorinfo) StdoutLine: {'line': b'Installing motorkey script to /home/robosub/robosub_driver/install/motorinfo/lib/motorinfo\n'}
+[47.830568] (motorinfo) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/robosub_driver/build/motorinfo/install.log'\n"}
+[47.837568] (-) TimerEvent: {}
+[47.938644] (-) TimerEvent: {}
+[48.039870] (-) TimerEvent: {}
+[48.054304] (motorinfo) CommandEnded: {'returncode': 0}
+[48.118846] (motorinfo) JobEnded: {'identifier': 'motorinfo', 'rc': 0}
+[48.122569] (-) EventReactorShutdown: {}
